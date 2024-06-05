@@ -1,0 +1,41 @@
+*{
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#radio{
+    /* background-color: blue; */
+    border: 2px dotted black;
+    padding: 10px;
+}
+
+#all{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#angel img{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+
+.social-links{
+    width: 100px;
+    background-color: yellow;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.social-links-st{
+    width:30px;
+}
