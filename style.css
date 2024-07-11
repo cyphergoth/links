@@ -1,41 +1,94 @@
-*{
+/*
+Falta:
+- Radio;
+- Arte ASCII e icon :3
+- VMobile;
+- Melhorar HTML!
+- CSS Framework?
+*/
 
+*{
+    font-family:'Courier New', Courier, monospace;
 }
 
 body{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-flow: column nowrap;
 }
 
-#radio{
-    /* background-color: blue; */
-    border: 2px dotted black;
-    padding: 10px;
+.artist-iframe{
+    background-color: aqua;
+    
+}
+
+.artist-iframe a:link, .artist-iframe a:visited{
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+main{
+    /* backdrop-filter: blur(25px); */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 600px;
 }
 
 #all{
-    /* background-color: blueviolet; */
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: center;
+    flex-grow: 10;
 }
 
-#angel img{
-    border: 1px solid white;
+#angel-name-mbti{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+#angel-name-mbti img{
     border-radius: 50%;
     width: 96px;
     height: 96px;
 }
 
-.social-links{
-    width: 100px;
-    background-color: yellow;
-    display: flex;
-    flex-flow: row nowrap;
+h3{
+    font-size: 1.3em;
+    margin: 0;
 }
 
-.social-links-st{
-    width:30px;
+#angel-name-mbti p{
+    color: grey;
+    margin: 0;
+}
+
+#social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.social-links-icon svg{
+    width: 40px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-size: 0.7em;
+    margin: 0;
+}
+
+#author:link, #author:visited{
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
 }
