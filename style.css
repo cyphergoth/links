@@ -36,18 +36,20 @@ main{
 }
 
 #all{
+    /* background-color: blueviolet; */
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    flex-grow: 10;
+    flex-grow: 1;
 }
 
 #angel-name-mbti{
+    /* background-color: yellowgreen; */
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 #angel-name-mbti img{
@@ -67,11 +69,12 @@ h3{
 }
 
 #social-links{
+    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .social-links-icon svg{
